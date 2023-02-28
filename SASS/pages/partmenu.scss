@@ -1,0 +1,33 @@
+.partmenu {
+    h2 {
+        font-weight: 300;
+        font-size: 16px;
+        text-transform: uppercase;
+        justify-content: flex-start;
+        margin-left: 13px;
+    }
+    hr {
+        margin: 7px 0 13px 13px;
+        width: 40px;
+        border: 2px solid var(--tiny-blue);
+    }
+    article {
+        height: 68px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 20px;
+        padding: 0 12px;
+        background: var(--white);
+        border-radius: 20px;
+        margin-bottom: 24px;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+        p {
+            font-size: 15px;
+            font-weight: 300;
+        }
+        .validation {
+            display: none;
+        }
+    }
+}
