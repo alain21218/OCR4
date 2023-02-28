@@ -1,0 +1,20 @@
+footer {
+    background: var(--grey4);
+    color: var(--white);
+    padding: 25px;
+    i {
+        width: 13px;
+        margin-right: 10px;
+    }
+    h2 {
+        margin-bottom: 16px;
+        font-weight: normal;
+    }
+    p {
+        margin-bottom: 8px;
+    }
+}
+
+.logo {
+    font-family: 'Shrikhand', cursive;
+}

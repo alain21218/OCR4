@@ -1,0 +1,60 @@
+#restaurants {
+    background: var(--grey1);
+    padding: 20px 0 25px 0;
+    h2{
+        margin-left: 20px;
+        padding: 50px 0 20px 0;
+    }
+}
+
+
+.resto {
+    background: var(--white);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: black;
+    
+    aside {
+        display: flex;    
+        justify-content: space-around;
+        width: 100%;
+        object-fit: cover;
+        &:nth-child(1) {
+            height: 60%;
+        }
+        div {
+            flex-direction: column;
+            width: 100%;
+            padding: 10px 0 10px 12px;
+        }
+        div:nth-child(2) {
+            width: 15%;
+            justify-content: right;
+        }
+    }
+
+    a {
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+    }
+}
+
+.heart i {
+    color: var(--white);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}

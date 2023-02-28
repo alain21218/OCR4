@@ -1,0 +1,223 @@
+:root {
+  --primaire: #9356DC;
+  --secondaire: #FF79DA;
+  --tertiaire: #99E2D0;
+  --grey1: #F6F6F6;
+  --grey2: #EAEAEA;
+  --grey3: #7E7E7E;
+  --grey4: #353535;
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 500;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 28px;
+  font-family: "Shrikhand", sans-serif;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+
+h4 {
+  font-weight: 300;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header img {
+  width: 162px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#ville {
+  background: var(--grey2);
+  height: 50px;
+  width: 100%;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ville i {
+  margin-right: 17px;
+}
+
+#reservation {
+  background: var(--grey1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 30px;
+  text-align: center;
+}
+
+#reservation h2 {
+  padding: 0 20px;
+}
+
+#reservation p {
+  font-size: 18px;
+  font-weight: 300;
+  padding: 10px 0;
+}
+
+button {
+  color: var(--white);
+  background: linear-gradient(var(--secondaire), var(--primaire));
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  border: none;
+  padding: 13px 18px;
+  margin: 20px 0;
+}
+
+#fonctionnement {
+  padding: 45px 0;
+}
+#fonctionnement h2 {
+  margin: 0 0 25px 20px;
+}
+#fonctionnement article {
+  height: 72px;
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+  background: var(--grey1);
+  border-radius: 20px;
+  z-index: 2;
+  margin-bottom: 24px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+}
+#fonctionnement article p {
+  font-weight: 500;
+}
+#fonctionnement article i {
+  margin: 0 30px;
+  color: var(--grey3);
+}
+
+.circle {
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  background: var(--primaire);
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+#restaurants {
+  background: var(--grey1);
+  padding: 20px 0 25px 0;
+}
+#restaurants h2 {
+  margin-left: 20px;
+  padding: 50px 0 20px 0;
+}
+
+.resto {
+  background: var(--white);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 250px;
+  margin: auto;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: black;
+}
+.resto aside {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  object-fit: cover;
+}
+.resto aside:nth-child(1) {
+  height: 60%;
+}
+.resto aside div {
+  flex-direction: column;
+  width: 100%;
+  padding: 10px 0 10px 12px;
+}
+.resto aside div:nth-child(2) {
+  width: 15%;
+  justify-content: right;
+}
+.resto a {
+  width: 100%;
+}
+.resto img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.heart i {
+  color: var(--white);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+footer {
+  background: var(--grey4);
+  color: var(--white);
+  padding: 25px;
+}
+footer i {
+  width: 13px;
+  margin-right: 10px;
+}
+footer h2 {
+  margin-bottom: 16px;
+  font-weight: normal;
+}
+footer p {
+  margin-bottom: 8px;
+}
+
+.logo {
+  font-family: "Shrikhand", cursive;
+}
+
+/*# sourceMappingURL=style.css.map */

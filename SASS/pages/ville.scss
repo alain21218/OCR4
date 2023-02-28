@@ -1,0 +1,13 @@
+#ville {
+    background: var(--grey2);
+    height: 50px;
+    width: 100%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ville i {
+    margin-right: 17px;
+}

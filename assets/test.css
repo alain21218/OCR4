@@ -1,0 +1,210 @@
+/* GENERAL */
+
+/* Déclaration des différentes couleurs afin d'utiliser des variables au lieu des codes hexadécimaux */
+
+:root {
+    --primaire: #9356DC; 
+    --secondaire: #FF79DA;
+    --tertiaire: #99E2D0;
+    --grey1: #F6F6F6;
+    --grey2: #EAEAEA;
+    --grey3: #7E7E7E;
+    --white: #fff;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header img{
+    width: 162px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#ville {
+    background: var(--grey2);
+    height: 50px;
+    width: 100%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ville i {
+    margin-right: 17px;
+}
+
+/* Main */
+
+    /* Reservation */
+
+#reservation {
+    background: var(--grey1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 30px;
+    text-align: center;
+}
+
+#reservation h1 {
+    padding: 0 20px;
+}
+
+#reservation p {
+    font-size: 18px;
+    font-weight: 300;
+    padding: 10px 0;
+}
+
+#reservation button {
+    color: var(--white);
+    background: linear-gradient( var(--secondaire), var(--primaire));
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    border: none;
+    padding: 13px 18px;
+    margin: 20px 0;
+}
+
+#fonctionnement {
+    padding: 50px 0;
+}
+
+#fonctionnement h1{
+    margin: 0 0 25px 20px;
+}
+
+#fonctionnement p {
+    font-weight: 500;
+}
+
+#fonctionnement i {
+    margin: 0 30px;
+    color: var(--grey3);
+}
+
+article {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    background: var(--grey1);
+    border-radius: 20px;
+    z-index: 2;
+    margin-bottom: 24px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.circle {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background: var(--primaire);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+#restaurants {
+    background: var(--grey1);
+    padding: 20px 0 25px 0;
+}
+
+#restaurants h1{
+    margin-left: 20px;
+    padding: 50px 0 20px 0;
+}
+
+.resto {
+    background: var(--white);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+}
+
+.resto aside {
+    display: flex;    
+    justify-content: space-around;
+    width: 100%;
+    object-fit: cover;
+}
+
+.resto a {
+    width: 100%;
+}
+
+.resto img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.resto h3 {
+    font-weight: 300;
+}
+
+.resto aside:nth-child(1) {
+    height: 60%;
+}
+
+.resto aside div {
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0 10px 12px;
+}
+
+.resto aside div:nth-child(2) {
+    width: 15%;
+    justify-content: right;
+}
+
+.heart i {
+    color: var(--white);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+/* Footer */
+
+.logo {
+    font-family: 'Shrikhand', cursive;
+}

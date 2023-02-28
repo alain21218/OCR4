@@ -1,0 +1,19 @@
+#reservation {
+    background: var(--grey1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 30px;
+    text-align: center;
+}
+
+#reservation h2 {
+    padding: 0 20px;
+}
+
+#reservation p {
+    font-size: 18px;
+    font-weight: 300;
+    padding: 10px 0;
+}
