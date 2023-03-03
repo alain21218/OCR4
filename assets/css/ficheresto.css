@@ -110,10 +110,20 @@ header img {
   justify-content: center;
 }
 
-footer {
+body {
   position: relative;
-  top: -30px;
-  height: 100%;
+}
+
+main {
+  padding-bottom: 170px
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 200px;
+  z-index: 5;
+  width: 100%;
 }
 
 .partmenu h2 {

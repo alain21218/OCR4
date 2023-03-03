@@ -4,8 +4,12 @@
   "description": "��#\u0000 \u0000O\u0000C\u0000R\u00004\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
+    "start": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
